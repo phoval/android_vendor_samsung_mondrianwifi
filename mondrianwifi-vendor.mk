@@ -19,6 +19,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/mondrianwifi
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/mondrianwifi/proprietary/product/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libaptX_encoder.so \
+    vendor/samsung/mondrianwifi/proprietary/product/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libaptXHD_encoder.so \
     vendor/samsung/mondrianwifi/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/mondrianwifi/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/samsung/mondrianwifi/proprietary/vendor/bin/efsks:$(TARGET_COPY_OUT_VENDOR)/bin/efsks \
@@ -65,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mondrianwifi/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/samsung/mondrianwifi/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/samsung/mondrianwifi/proprietary/vendor/lib/libak8963c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libak8963c.so \
-    vendor/samsung/mondrianwifi/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
     vendor/samsung/mondrianwifi/proprietary/vendor/lib/libarcsoft_night_shot_ex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot_ex.so \
     vendor/samsung/mondrianwifi/proprietary/vendor/lib/libarcsoft_nighthawk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_nighthawk.so \
     vendor/samsung/mondrianwifi/proprietary/vendor/lib/libarcsoft_panorama_burstcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_panorama_burstcapture.so \
