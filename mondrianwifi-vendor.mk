@@ -19,8 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/mondrianwifi
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/mondrianwifi/proprietary/product/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libaptX_encoder.so \
-    vendor/samsung/mondrianwifi/proprietary/product/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libaptXHD_encoder.so \
     vendor/samsung/mondrianwifi/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/mondrianwifi/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/samsung/mondrianwifi/proprietary/vendor/bin/efsks:$(TARGET_COPY_OUT_VENDOR)/bin/efsks \
